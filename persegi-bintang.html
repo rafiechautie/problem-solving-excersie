@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="square()">Try it</button>
+    <script>
+        
+        const square = () => {
+            let n = prompt("Please input your square")
+            for(let i = 0; i<n; i++){
+                for(let j = n; j>0; j--){
+                    console.log('*')
+                }
+            }
+        }
+    </script>
+</body>
+</html>
